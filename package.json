@@ -1,0 +1,27 @@
+{
+  "name": "bot-opiekun",
+  "version": "1.0.0",
+  "description": "Discord Bot CLock",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "dev:watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord.js"
+  ],
+  "author": "FReszuu",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "axios": "^0.19.2",
+    "chalk": "^4.0.0",
+    "discord.js": "^12.0.2",
+    "dotenv": "^8.2.0",
+    "js-yaml": "^3.13.1"
+  }
+}
